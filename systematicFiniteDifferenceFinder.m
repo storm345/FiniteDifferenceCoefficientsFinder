@@ -35,7 +35,7 @@ for k=-M:N
         fprintf('  +  ');
     end
 end
-disp("Truncation err order: "+(J+1));
+disp("Truncation err order: "+(J+1-derivativeOrder));
 
 %Compute the matrix of taylor series coefficients that once multiplied by a
 %vector of the stencil coefficients will give the coefficients (beta_n in
